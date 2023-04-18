@@ -33,6 +33,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = window
         
+        print(AuthManager.shared.signInURL?.absoluteString ?? "ERROR")
+        AuthManager.shared.refreshIfNeededAccessToken { success in
+            print(success)
+        }
+        
         return true
     }
     

@@ -29,6 +29,8 @@
 		FA61ED1929EE8A650037D30E /* AudioTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */; };
 		FA61ED1B29EE8A700037D30E /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1A29EE8A700037D30E /* ArtistModel.swift */; };
 		FA61ED1D29EE8A8C0037D30E /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */; };
+		FA61ED1F29EEA9100037D30E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1E29EEA9100037D30E /* Extensions.swift */; };
+		FA61ED2129EED35C0037D30E /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED2029EED35C0037D30E /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrackModel.swift; sourceTree = "<group>"; };
 		FA61ED1A29EE8A700037D30E /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
 		FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		FA61ED1E29EEA9100037D30E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA61ED2029EED35C0037D30E /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */,
 				FA61ED1A29EE8A700037D30E /* ArtistModel.swift */,
 				FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */,
+				FA61ED2029EED35C0037D30E /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				FA61ECDE29EE818C0037D30E /* AppDelegate.swift */,
 				FA61ECE029EE818C0037D30E /* SceneDelegate.swift */,
 				FA61ECE729EE818E0037D30E /* Assets.xcassets */,
+				FA61ED1E29EEA9100037D30E /* Extensions.swift */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -257,11 +263,13 @@
 				FA61ED0129EE87B40037D30E /* PlaylistsViewController.swift in Sources */,
 				FA61ED1529EE8A280037D30E /* HapticsManager.swift in Sources */,
 				FA61ED0D29EE88B20037D30E /* PlayerViewController.swift in Sources */,
+				FA61ED2129EED35C0037D30E /* AuthResponse.swift in Sources */,
 				FA61ECE329EE818C0037D30E /* HomeController.swift in Sources */,
 				FA61ED0B29EE88AB0037D30E /* ProfileViewController.swift in Sources */,
 				FA61ED1729EE8A5A0037D30E /* PlaylistModel.swift in Sources */,
 				FA61ED0529EE88880037D30E /* AuthViewController.swift in Sources */,
 				FA61ED1929EE8A650037D30E /* AudioTrackModel.swift in Sources */,
+				FA61ED1F29EEA9100037D30E /* Extensions.swift in Sources */,
 				FA61ECDF29EE818C0037D30E /* AppDelegate.swift in Sources */,
 				FA61ED1D29EE8A8C0037D30E /* UserProfileModel.swift in Sources */,
 				FA61ECFF29EE87AB0037D30E /* LibraryViewController.swift in Sources */,
