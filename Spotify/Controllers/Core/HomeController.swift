@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         title = "Home"
-        view.backgroundColor = .cyan
+        view.backgroundColor = .systemBackground
     }
 
 

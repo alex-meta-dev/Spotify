@@ -22,6 +22,13 @@
 		FA61ED0B29EE88AB0037D30E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED0A29EE88AB0037D30E /* ProfileViewController.swift */; };
 		FA61ED0D29EE88B20037D30E /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED0C29EE88B20037D30E /* PlayerViewController.swift */; };
 		FA61ED0F29EE88D50037D30E /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED0E29EE88D50037D30E /* SearchResultViewController.swift */; };
+		FA61ED1129EE8A080037D30E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1029EE8A080037D30E /* AuthManager.swift */; };
+		FA61ED1329EE8A1C0037D30E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1229EE8A1C0037D30E /* APICaller.swift */; };
+		FA61ED1529EE8A280037D30E /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1429EE8A280037D30E /* HapticsManager.swift */; };
+		FA61ED1729EE8A5A0037D30E /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1629EE8A5A0037D30E /* PlaylistModel.swift */; };
+		FA61ED1929EE8A650037D30E /* AudioTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */; };
+		FA61ED1B29EE8A700037D30E /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1A29EE8A700037D30E /* ArtistModel.swift */; };
+		FA61ED1D29EE8A8C0037D30E /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		FA61ED0A29EE88AB0037D30E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FA61ED0C29EE88B20037D30E /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		FA61ED0E29EE88D50037D30E /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		FA61ED1029EE8A080037D30E /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		FA61ED1229EE8A1C0037D30E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FA61ED1429EE8A280037D30E /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		FA61ED1629EE8A5A0037D30E /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrackModel.swift; sourceTree = "<group>"; };
+		FA61ED1A29EE8A700037D30E /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,10 @@
 		FA61ECF629EE82B20037D30E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA61ED1629EE8A5A0037D30E /* PlaylistModel.swift */,
+				FA61ED1829EE8A650037D30E /* AudioTrackModel.swift */,
+				FA61ED1A29EE8A700037D30E /* ArtistModel.swift */,
+				FA61ED1C29EE8A8C0037D30E /* UserProfileModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +137,9 @@
 		FA61ECF829EE82C50037D30E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FA61ED1029EE8A080037D30E /* AuthManager.swift */,
+				FA61ED1229EE8A1C0037D30E /* APICaller.swift */,
+				FA61ED1429EE8A280037D30E /* HapticsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -136,8 +157,8 @@
 		FA61ED0229EE87FD0037D30E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FA61ECE229EE818C0037D30E /* HomeController.swift */,
 				FA61ECFA29EE87470037D30E /* TabBarViewController.swift */,
+				FA61ECE229EE818C0037D30E /* HomeController.swift */,
 				FA61ECFC29EE877A0037D30E /* SearchViewController.swift */,
 				FA61ECFE29EE87AB0037D30E /* LibraryViewController.swift */,
 			);
@@ -229,18 +250,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA61ED0729EE88940037D30E /* WelcomeViewController.swift in Sources */,
+				FA61ED1129EE8A080037D30E /* AuthManager.swift in Sources */,
 				FA61ECFD29EE877A0037D30E /* SearchViewController.swift in Sources */,
 				FA61ECFB29EE87470037D30E /* TabBarViewController.swift in Sources */,
 				FA61ED0929EE889D0037D30E /* SettingsViewController.swift in Sources */,
 				FA61ED0129EE87B40037D30E /* PlaylistsViewController.swift in Sources */,
+				FA61ED1529EE8A280037D30E /* HapticsManager.swift in Sources */,
 				FA61ED0D29EE88B20037D30E /* PlayerViewController.swift in Sources */,
 				FA61ECE329EE818C0037D30E /* HomeController.swift in Sources */,
 				FA61ED0B29EE88AB0037D30E /* ProfileViewController.swift in Sources */,
+				FA61ED1729EE8A5A0037D30E /* PlaylistModel.swift in Sources */,
 				FA61ED0529EE88880037D30E /* AuthViewController.swift in Sources */,
+				FA61ED1929EE8A650037D30E /* AudioTrackModel.swift in Sources */,
 				FA61ECDF29EE818C0037D30E /* AppDelegate.swift in Sources */,
+				FA61ED1D29EE8A8C0037D30E /* UserProfileModel.swift in Sources */,
 				FA61ECFF29EE87AB0037D30E /* LibraryViewController.swift in Sources */,
 				FA61ED0F29EE88D50037D30E /* SearchResultViewController.swift in Sources */,
+				FA61ED1329EE8A1C0037D30E /* APICaller.swift in Sources */,
 				FA61ECE129EE818C0037D30E /* SceneDelegate.swift in Sources */,
+				FA61ED1B29EE8A700037D30E /* ArtistModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
